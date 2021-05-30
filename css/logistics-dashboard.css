@@ -1,0 +1,57 @@
+.meta-box {
+	margin: 0 8px;
+}
+.hndle {
+	cursor: default!important;
+}
+.shipping-stats li {
+	border: 1px solid rgba(0,0,0,.06); 
+    margin-bottom: 0!important;
+    border-top: 0;
+    
+}
+.shipping-stats li:first-child {
+	border-left: 0;
+}
+.shipping-stats li:nth-child(2) {
+	border-left: 0;
+	border-right: 0;
+	margin-left: -1px!important;
+}
+.shipping-stats li:last-child {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.shipping-stats li h3 {
+	margin: 13px 13px 0!important;
+}
+.shipping-stats p a {
+	font-size: 23px;
+	margin: 13px;
+}
+.shipping-stats .three-days p a {
+	color: #7ad03a;
+}
+.shipping-stats .three-days p a:hover,
+.shipping-stats .three-days p a:focus {
+	color: #7ad03a;
+}
+.shipping-stats .week p a {
+	color: #ffba00;
+}
+.shipping-stats .week p a:hover,
+.shipping-stats .week p a:focus {
+	color: #ffba00;
+}
+.shipping-stats .past p a {
+	color: #a00;
+}
+.shipping-stats .past p a:hover,
+.shipping-stats .past p a:focus {
+	color: #a00;
+}
+.shipping-stats li a:before {
+	content: none!important;
+}
